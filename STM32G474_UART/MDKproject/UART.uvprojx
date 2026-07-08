@@ -530,9 +530,9 @@
           <GroupName>BPS</GroupName>
           <Files>
             <File>
-              <FileName>Clock_system.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\Clock_system.h</FilePath>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\ADC.c</FilePath>
             </File>
             <File>
               <FileName>Clock_system.c</FileName>
@@ -540,14 +540,64 @@
               <FilePath>..\BPS\Src\Clock_system.c</FilePath>
             </File>
             <File>
-              <FileName>SPI.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\SPI.h</FilePath>
+              <FileName>DMA.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\DMA.c</FilePath>
             </File>
             <File>
               <FileName>SPI.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BPS\Src\SPI.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\Timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_oversampling.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\Timer_oversampling.c</FilePath>
+            </File>
+            <File>
+              <FileName>USART.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\USART.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\ADC.h</FilePath>
+            </File>
+            <File>
+              <FileName>Clock_system.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\Clock_system.h</FilePath>
+            </File>
+            <File>
+              <FileName>DMA.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\DMA.h</FilePath>
+            </File>
+            <File>
+              <FileName>SPI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\SPI.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\Timer.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_oversampling.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\Timer_oversampling.h</FilePath>
+            </File>
+            <File>
+              <FileName>USART.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\USART.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\SPI.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\SPI.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Sun Jun 28 23:11:04 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6240002: Last Updated: Wed Jul  8 22:33:51 2026
 <BR><P>
-<H3>Maximum Stack Usage =        208 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        200 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; SPI2_Init &rArr; LL_GPIO_Init &rArr; LL_GPIO_SetPinMode
 <P>
@@ -268,7 +268,7 @@ Global Symbols
 <P><STRONG><a name="[e7]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[7c]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 208 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 200 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; SPI2_Init &rArr; LL_GPIO_Init &rArr; LL_GPIO_SetPinMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -773,7 +773,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LL_InitTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Clock_system
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Clock_system
 </UL>
 
 <P><STRONG><a name="[8d]"></a>LL_PLL_ConfigSystemClock_HSE</STRONG> (Thumb, 222 bytes, Stack size 40 bytes, stm32g4xx_ll_utils.o(.text.LL_PLL_ConfigSystemClock_HSE))
@@ -831,7 +832,7 @@ Global Symbols
 <LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Init
 </UL>
 
-<P><STRONG><a name="[aa]"></a>Read_W5500</STRONG> (Thumb, 306 bytes, Stack size 32 bytes, spi.o(.text.Read_W5500))
+<P><STRONG><a name="[aa]"></a>Read_W5500</STRONG> (Thumb, 304 bytes, Stack size 32 bytes, spi.o(.text.Read_W5500))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = Read_W5500 &rArr; LL_SPI_TransmitData8
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LL_SPI_ReceiveData8
@@ -844,8 +845,8 @@ Global Symbols
 <LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_TCP_Client
 </UL>
 
-<P><STRONG><a name="[b0]"></a>SPI2_Init</STRONG> (Thumb, 278 bytes, Stack size 104 bytes, spi.o(.text.SPI2_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 176 + Unknown Stack Size
+<P><STRONG><a name="[b0]"></a>SPI2_Init</STRONG> (Thumb, 198 bytes, Stack size 96 bytes, spi.o(.text.SPI2_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
 <LI>Call Chain = SPI2_Init &rArr; LL_GPIO_Init &rArr; LL_GPIO_SetPinMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
@@ -887,7 +888,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[c1]"></a>Write_W5500</STRONG> (Thumb, 274 bytes, Stack size 32 bytes, spi.o(.text.Write_W5500))
+<P><STRONG><a name="[c1]"></a>Write_W5500</STRONG> (Thumb, 262 bytes, Stack size 32 bytes, spi.o(.text.Write_W5500))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = Write_W5500 &rArr; LL_SPI_TransmitData8
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LL_SPI_ReceiveData8
@@ -900,8 +901,8 @@ Global Symbols
 <LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Init
 </UL>
 
-<P><STRONG><a name="[7d]"></a>main</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 208 + Unknown Stack Size
+<P><STRONG><a name="[7d]"></a>main</STRONG> (Thumb, 124 bytes, Stack size 32 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200 + Unknown Stack Size
 <LI>Call Chain = main &rArr; SPI2_Init &rArr; LL_GPIO_Init &rArr; LL_GPIO_SetPinMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_TCP_Client
@@ -912,6 +913,7 @@ Global Symbols
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_Init
 <LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Clock_system
 <LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LL_mDelay
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LL_Init1msTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>

@@ -89,71 +89,43 @@ I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h)(0x6A2D95B3)
-F (..\BPS\Inc\Clock_system.h)(0x6A2DA0C1)()
-F (..\BPS\Inc\ADC.h)(0x6A2EBCB9)()
-F (..\BPS\Inc\TIM.h)(0x6A37AF9F)()
-F (..\BPS\Inc\SPI.h)(0x6A411A30)()
-F (..\BPS\Src\Clock_system.c)(0x6A3D45D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/clock_system.o -MMD)
-I (..\BPS\Inc\Clock_system.h)(0x6A2DA0C1)
+F (..\BPS\Inc\Clock_system.h)(0x6A4E64D4)()
+F (..\BPS\Inc\SPI.h)(0x6A4E6693)()
+F (..\BPS\Src\Clock_system.c)(0x6A4E64D4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/clock_system.o -MMD)
+I (..\BPS\Inc\Clock_system.h)(0x6A4E64D4)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Core\Include\core_cm4.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h)(0x6A2D95B3)
-F (..\BPS\Src\ADC.c)(0x6A37ADF1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/adc.o -MMD)
-I (..\BPS\Inc\ADC.h)(0x6A2EBCB9)
-I (..\BPS\Inc\Clock_system.h)(0x6A2DA0C1)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Core\Include\core_cm4.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dma.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dmamux.h)(0x6A2D95B3)
-F (..\BPS\Src\TIM.c)(0x6A37AF53)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/tim.o -MMD)
-I (..\BPS\Inc\TIM.h)(0x6A37AF9F)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_tim.h)(0x6A2D95B3)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
+F (..\BPS\Src\SPI.c)(0x6A4A88F7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/spi.o -MMD)
+I (..\BPS\Inc\SPI.h)(0x6A4E6693)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Core\Include\core_cm4.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
-F (..\BPS\Src\SPI.c)(0x6A414666)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/spi.o -MMD)
-I (..\BPS\Inc\SPI.h)(0x6A411A30)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Core\Include\core_cm4.h)(0x6A2D9584)
-I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_spi.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
-F (..\App\Inc\main.h)(0x6A3D3446)()
-F (..\App\Src\main.c)(0x6A414797)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/main.o -MMD)
-I (..\App\Inc\main.h)(0x6A3D3446)
-I (..\BPS\Inc\Clock_system.h)(0x6A2DA0C1)
+F (..\App\Inc\main.h)(0x6A4E6DDF)()
+F (..\App\Src\main.c)(0x6A4E6DDF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../libraries/CMSIS/Core/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Include -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates -I ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm -I ../libraries/STM32G4xx_HAL_Driver/Inc -I ../libraries/STM32G4xx_HAL_Driver/Src -I ../BPS/Inc -I ../BPS/Src -I ../App/Inc -I ../App/Src-D__UVISION_VERSION="543" -DSTM32G474xx -DUSE_FULL_LL_DRIVER-o ./objects/main.o -MMD)
+I (..\App\Inc\main.h)(0x6A4E6DDF)
+I (..\BPS\Inc\Clock_system.h)(0x6A4E64D4)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h)(0x6A2D95B3)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Core\Include\core_cm4.h)(0x6A2D9584)
 I (..\libraries\CMSIS\Device\ST\STM32G4xx\Include\system_stm32g4xx.h)(0x6A2D9584)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h)(0x6A2D95B3)
-I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h)(0x6A2D95B3)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h)(0x6A2D95B3)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h)(0x6A2D95B3)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h)(0x6A2D95B3)
-I (..\BPS\Inc\SPI.h)(0x6A411A30)
+I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h)(0x6A2D95B4)
+I (..\BPS\Inc\SPI.h)(0x6A4E6693)
 I (..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_spi.h)(0x6A2D95B3)

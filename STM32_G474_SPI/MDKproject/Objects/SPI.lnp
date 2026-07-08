@@ -11,8 +11,6 @@
 ".\objects\stm32g4xx_ll_usart.o"
 ".\objects\stm32g4xx_ll_utils.o"
 ".\objects\clock_system.o"
-".\objects\adc.o"
-".\objects\tim.o"
 ".\objects\spi.o"
 ".\objects\main.o"
 --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols

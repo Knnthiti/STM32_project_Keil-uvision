@@ -510,9 +510,14 @@
               <FilePath>..\BPS\Inc\ADC.h</FilePath>
             </File>
             <File>
-              <FileName>TIM.h</FileName>
+              <FileName>Clock_system.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\TIM.h</FilePath>
+              <FilePath>..\BPS\Inc\Clock_system.h</FilePath>
+            </File>
+            <File>
+              <FileName>DMA.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\DMA.h</FilePath>
             </File>
             <File>
               <FileName>ADC.c</FileName>
@@ -520,19 +525,24 @@
               <FilePath>..\BPS\Src\ADC.c</FilePath>
             </File>
             <File>
-              <FileName>TIM.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BPS\Src\TIM.c</FilePath>
-            </File>
-            <File>
-              <FileName>Clock_system.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\Clock_system.h</FilePath>
-            </File>
-            <File>
               <FileName>Clock_system.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BPS\Src\Clock_system.c</FilePath>
+            </File>
+            <File>
+              <FileName>DMA.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\DMA.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_oversampling.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BPS\Inc\Timer_oversampling.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_oversampling.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BPS\Src\Timer_oversampling.c</FilePath>
             </File>
           </Files>
         </Group>

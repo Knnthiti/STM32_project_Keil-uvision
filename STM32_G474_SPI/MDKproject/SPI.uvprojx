@@ -535,16 +535,6 @@
               <FilePath>..\BPS\Inc\Clock_system.h</FilePath>
             </File>
             <File>
-              <FileName>ADC.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\ADC.h</FilePath>
-            </File>
-            <File>
-              <FileName>TIM.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\TIM.h</FilePath>
-            </File>
-            <File>
               <FileName>SPI.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BPS\Inc\SPI.h</FilePath>
@@ -553,16 +543,6 @@
               <FileName>Clock_system.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\BPS\Src\Clock_system.c</FilePath>
-            </File>
-            <File>
-              <FileName>ADC.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BPS\Src\ADC.c</FilePath>
-            </File>
-            <File>
-              <FileName>TIM.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BPS\Src\TIM.c</FilePath>
             </File>
             <File>
               <FileName>SPI.c</FileName>
