@@ -428,80 +428,6 @@ Section Cross References
     timer.o(.ARM.exidx.text.LL_TIM_EnableIT_CC1) refers to timer.o(.text.LL_TIM_EnableIT_CC1) for [Anonymous Symbol]
     timer.o(.ARM.exidx.text.__NVIC_SetPriority) refers to timer.o(.text.__NVIC_SetPriority) for [Anonymous Symbol]
     timer.o(.ARM.exidx.text.__NVIC_EnableIRQ) refers to timer.o(.text.__NVIC_EnableIRQ) for [Anonymous Symbol]
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_AHB1_GRP1_EnableClock) for LL_AHB1_GRP1_EnableClock
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMAMUX_EnableEventGeneration) for LL_DMAMUX_EnableEventGeneration
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphRequest) for LL_DMA_SetPeriphRequest
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetDataTransferDirection) for LL_DMA_SetDataTransferDirection
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetChannelPriorityLevel) for LL_DMA_SetChannelPriorityLevel
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMode) for LL_DMA_SetMode
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphIncMode) for LL_DMA_SetPeriphIncMode
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMemoryIncMode) for LL_DMA_SetMemoryIncMode
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphSize) for LL_DMA_SetPeriphSize
-    dma.o(.text.ADC2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMemorySize) for LL_DMA_SetMemorySize
-    dma.o(.ARM.exidx.text.ADC2_DMA_Init) refers to dma.o(.text.ADC2_DMA_Init) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_AHB1_GRP1_EnableClock) refers to dma.o(.text.LL_AHB1_GRP1_EnableClock) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMAMUX_EnableEventGeneration) refers to dma.o(.text.LL_DMAMUX_EnableEventGeneration) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMA_SetPeriphRequest) refers to dma.o(.text.LL_DMA_SetPeriphRequest) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetDataTransferDirection) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetDataTransferDirection) refers to dma.o(.text.LL_DMA_SetDataTransferDirection) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetChannelPriorityLevel) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetChannelPriorityLevel) refers to dma.o(.text.LL_DMA_SetChannelPriorityLevel) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetMode) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetMode) refers to dma.o(.text.LL_DMA_SetMode) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetPeriphIncMode) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetPeriphIncMode) refers to dma.o(.text.LL_DMA_SetPeriphIncMode) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetMemoryIncMode) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetMemoryIncMode) refers to dma.o(.text.LL_DMA_SetMemoryIncMode) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetPeriphSize) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetPeriphSize) refers to dma.o(.text.LL_DMA_SetPeriphSize) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetMemorySize) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetMemorySize) refers to dma.o(.text.LL_DMA_SetMemorySize) for [Anonymous Symbol]
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_DisableChannel) for LL_DMA_DisableChannel
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_IsEnabledChannel) for LL_DMA_IsEnabledChannel
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_ADC_DMA_GetRegAddr) for LL_ADC_DMA_GetRegAddr
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_SetPeriphAddress) for LL_DMA_SetPeriphAddress
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_SetMemoryAddress) for LL_DMA_SetMemoryAddress
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_SetDataLength) for LL_DMA_SetDataLength
-    dma.o(.text.ADC2_DMA_Start) refers to dma.o(.text.LL_DMA_EnableChannel) for LL_DMA_EnableChannel
-    dma.o(.ARM.exidx.text.ADC2_DMA_Start) refers to dma.o(.text.ADC2_DMA_Start) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_DisableChannel) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_DisableChannel) refers to dma.o(.text.LL_DMA_DisableChannel) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_IsEnabledChannel) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_IsEnabledChannel) refers to dma.o(.text.LL_DMA_IsEnabledChannel) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetPeriphAddress) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetPeriphAddress) refers to dma.o(.text.LL_DMA_SetPeriphAddress) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_ADC_DMA_GetRegAddr) refers to dma.o(.text.LL_ADC_DMA_GetRegAddr) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetMemoryAddress) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetMemoryAddress) refers to dma.o(.text.LL_DMA_SetMemoryAddress) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_SetDataLength) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_SetDataLength) refers to dma.o(.text.LL_DMA_SetDataLength) for [Anonymous Symbol]
-    dma.o(.text.LL_DMA_EnableChannel) refers to dma.o(.rodata.CHANNEL_OFFSET_TAB) for CHANNEL_OFFSET_TAB
-    dma.o(.ARM.exidx.text.LL_DMA_EnableChannel) refers to dma.o(.text.LL_DMA_EnableChannel) for [Anonymous Symbol]
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_AHB1_GRP1_EnableClock) for LL_AHB1_GRP1_EnableClock
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphRequest) for LL_DMA_SetPeriphRequest
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetDataTransferDirection) for LL_DMA_SetDataTransferDirection
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetChannelPriorityLevel) for LL_DMA_SetChannelPriorityLevel
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMode) for LL_DMA_SetMode
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphIncMode) for LL_DMA_SetPeriphIncMode
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMemoryIncMode) for LL_DMA_SetMemoryIncMode
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetPeriphSize) for LL_DMA_SetPeriphSize
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMA_SetMemorySize) for LL_DMA_SetMemorySize
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMAMUX_SetRequestSignalID) for LL_DMAMUX_SetRequestSignalID
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMAMUX_SetRequestGenPolarity) for LL_DMAMUX_SetRequestGenPolarity
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMAMUX_SetGenRequestNb) for LL_DMAMUX_SetGenRequestNb
-    dma.o(.text.TIM2_DMA_Init) refers to dma.o(.text.LL_DMAMUX_EnableRequestGen) for LL_DMAMUX_EnableRequestGen
-    dma.o(.ARM.exidx.text.TIM2_DMA_Init) refers to dma.o(.text.TIM2_DMA_Init) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMAMUX_SetRequestSignalID) refers to dma.o(.text.LL_DMAMUX_SetRequestSignalID) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMAMUX_SetRequestGenPolarity) refers to dma.o(.text.LL_DMAMUX_SetRequestGenPolarity) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMAMUX_SetGenRequestNb) refers to dma.o(.text.LL_DMAMUX_SetGenRequestNb) for [Anonymous Symbol]
-    dma.o(.ARM.exidx.text.LL_DMAMUX_EnableRequestGen) refers to dma.o(.text.LL_DMAMUX_EnableRequestGen) for [Anonymous Symbol]
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_DisableChannel) for LL_DMA_DisableChannel
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_IsEnabledChannel) for LL_DMA_IsEnabledChannel
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_SetMemoryAddress) for LL_DMA_SetMemoryAddress
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_SetPeriphAddress) for LL_DMA_SetPeriphAddress
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_SetDataLength) for LL_DMA_SetDataLength
-    dma.o(.text.TIM2_DMA_Start) refers to dma.o(.text.LL_DMA_EnableChannel) for LL_DMA_EnableChannel
-    dma.o(.ARM.exidx.text.TIM2_DMA_Start) refers to dma.o(.text.TIM2_DMA_Start) for [Anonymous Symbol]
     main.o(.text.TIM3_IRQHandler) refers to main.o(.text.LL_TIM_IsActiveFlag_CC1) for LL_TIM_IsActiveFlag_CC1
     main.o(.text.TIM3_IRQHandler) refers to main.o(.text.LL_TIM_ClearFlag_CC1) for LL_TIM_ClearFlag_CC1
     main.o(.text.TIM3_IRQHandler) refers to main.o(.text.LL_TIM_IC_GetCaptureCH1) for LL_TIM_IC_GetCaptureCH1
@@ -920,58 +846,6 @@ Removing Unused input sections from the image.
     Removing timer.o(.ARM.exidx.text.__NVIC_SetPriority), (8 bytes).
     Removing timer.o(.ARM.exidx.text.__NVIC_EnableIRQ), (8 bytes).
     Removing timer.o(.rodata.cst16), (16 bytes).
-    Removing dma.o(.text), (0 bytes).
-    Removing dma.o(.text.ADC2_DMA_Init), (126 bytes).
-    Removing dma.o(.ARM.exidx.text.ADC2_DMA_Init), (8 bytes).
-    Removing dma.o(.text.LL_AHB1_GRP1_EnableClock), (34 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_AHB1_GRP1_EnableClock), (8 bytes).
-    Removing dma.o(.text.LL_DMAMUX_EnableEventGeneration), (32 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMAMUX_EnableEventGeneration), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetPeriphRequest), (72 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetPeriphRequest), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetDataTransferDirection), (50 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetDataTransferDirection), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetChannelPriorityLevel), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetChannelPriorityLevel), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetMode), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetMode), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetPeriphIncMode), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetPeriphIncMode), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetMemoryIncMode), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetMemoryIncMode), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetPeriphSize), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetPeriphSize), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetMemorySize), (48 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetMemorySize), (8 bytes).
-    Removing dma.o(.text.ADC2_DMA_Start), (104 bytes).
-    Removing dma.o(.ARM.exidx.text.ADC2_DMA_Start), (8 bytes).
-    Removing dma.o(.text.LL_DMA_DisableChannel), (36 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_DisableChannel), (8 bytes).
-    Removing dma.o(.text.LL_DMA_IsEnabledChannel), (34 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_IsEnabledChannel), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetPeriphAddress), (36 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetPeriphAddress), (8 bytes).
-    Removing dma.o(.text.LL_ADC_DMA_GetRegAddr), (90 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_ADC_DMA_GetRegAddr), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetMemoryAddress), (36 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetMemoryAddress), (8 bytes).
-    Removing dma.o(.text.LL_DMA_SetDataLength), (54 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_SetDataLength), (8 bytes).
-    Removing dma.o(.text.LL_DMA_EnableChannel), (36 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMA_EnableChannel), (8 bytes).
-    Removing dma.o(.text.TIM2_DMA_Init), (164 bytes).
-    Removing dma.o(.ARM.exidx.text.TIM2_DMA_Init), (8 bytes).
-    Removing dma.o(.text.LL_DMAMUX_SetRequestSignalID), (40 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMAMUX_SetRequestSignalID), (8 bytes).
-    Removing dma.o(.text.LL_DMAMUX_SetRequestGenPolarity), (40 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMAMUX_SetRequestGenPolarity), (8 bytes).
-    Removing dma.o(.text.LL_DMAMUX_SetGenRequestNb), (50 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMAMUX_SetGenRequestNb), (8 bytes).
-    Removing dma.o(.text.LL_DMAMUX_EnableRequestGen), (32 bytes).
-    Removing dma.o(.ARM.exidx.text.LL_DMAMUX_EnableRequestGen), (8 bytes).
-    Removing dma.o(.text.TIM2_DMA_Start), (94 bytes).
-    Removing dma.o(.ARM.exidx.text.TIM2_DMA_Start), (8 bytes).
-    Removing dma.o(.rodata.CHANNEL_OFFSET_TAB), (8 bytes).
     Removing main.o(.text), (0 bytes).
     Removing main.o(.ARM.exidx.text.TIM3_IRQHandler), (8 bytes).
     Removing main.o(.ARM.exidx.text.LL_TIM_IsActiveFlag_CC1), (8 bytes).
@@ -983,7 +857,7 @@ Removing Unused input sections from the image.
     Removing main.o(.ARM.exidx.text.LL_TIM_SetAutoReload), (8 bytes).
     Removing main.o(.ARM.use_no_argv), (4 bytes).
 
-346 unused section(s) (total 10902 bytes) removed from the image.
+294 unused section(s) (total 9246 bytes) removed from the image.
 
 ==============================================================================
 
@@ -1046,7 +920,6 @@ Image Symbol Table
     ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
     ../libraries/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g474xx.s 0x00000000   Number         0  startup_stm32g474xx.o ABSOLUTE
     Clock_system.c                           0x00000000   Number         0  clock_system.o ABSOLUTE
-    DMA.c                                    0x00000000   Number         0  dma.o ABSOLUTE
     Timer.c                                  0x00000000   Number         0  timer.o ABSOLUTE
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     main.c                                   0x00000000   Number         0  main.o ABSOLUTE
@@ -1540,65 +1413,65 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x000001d8   Data   RO           17    RESET               startup_stm32g474xx.o
-    0x080001d8   0x080001d8   0x00000008   Code   RO          518  * !!!main             c_w.l(__main.o)
-    0x080001e0   0x080001e0   0x0000005c   Code   RO          683    !!!scatter          c_w.l(__scatter.o)
-    0x0800023c   0x0800023c   0x0000001a   Code   RO          687    !!handler_copy      c_w.l(__scatter_copy.o)
+    0x080001d8   0x080001d8   0x00000008   Code   RO          460  * !!!main             c_w.l(__main.o)
+    0x080001e0   0x080001e0   0x0000005c   Code   RO          625    !!!scatter          c_w.l(__scatter.o)
+    0x0800023c   0x0800023c   0x0000001a   Code   RO          629    !!handler_copy      c_w.l(__scatter_copy.o)
     0x08000256   0x08000256   0x00000002   PAD
-    0x08000258   0x08000258   0x00000002   Code   RO          684    !!handler_null      c_w.l(__scatter.o)
+    0x08000258   0x08000258   0x00000002   Code   RO          626    !!handler_null      c_w.l(__scatter.o)
     0x0800025a   0x0800025a   0x00000002   PAD
-    0x0800025c   0x0800025c   0x0000001c   Code   RO          689    !!handler_zi        c_w.l(__scatter_zi.o)
-    0x08000278   0x08000278   0x00000002   Code   RO          545    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
-    0x0800027a   0x0800027a   0x00000004   Code   RO          551    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          554    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          556    .ARM.Collect$$libinit$$00000006  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          559    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          561    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          563    .ARM.Collect$$libinit$$00000010  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          566    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          568    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          570    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          572    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          574    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          576    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          578    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          580    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          582    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          584    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          586    .ARM.Collect$$libinit$$00000027  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          590    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          592    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          594    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000000   Code   RO          596    .ARM.Collect$$libinit$$00000034  c_w.l(libinit2.o)
-    0x0800027e   0x0800027e   0x00000002   Code   RO          597    .ARM.Collect$$libinit$$00000035  c_w.l(libinit2.o)
-    0x08000280   0x08000280   0x00000002   Code   RO          619    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          634    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          636    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          639    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          642    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          644    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000000   Code   RO          647    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
-    0x08000282   0x08000282   0x00000002   Code   RO          648    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
-    0x08000284   0x08000284   0x00000000   Code   RO          520    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
-    0x08000284   0x08000284   0x00000000   Code   RO          522    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
-    0x08000284   0x08000284   0x00000006   Code   RO          534    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
-    0x0800028a   0x0800028a   0x00000000   Code   RO          524    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
-    0x0800028a   0x0800028a   0x00000004   Code   RO          525    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
-    0x0800028e   0x0800028e   0x00000000   Code   RO          527    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
-    0x0800028e   0x0800028e   0x00000008   Code   RO          528    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
-    0x08000296   0x08000296   0x00000002   Code   RO          549    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
-    0x08000298   0x08000298   0x00000000   Code   RO          599    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
-    0x08000298   0x08000298   0x00000004   Code   RO          600    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
-    0x0800029c   0x0800029c   0x00000006   Code   RO          601    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x0800025c   0x0800025c   0x0000001c   Code   RO          631    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x08000278   0x08000278   0x00000002   Code   RO          487    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x0800027a   0x0800027a   0x00000004   Code   RO          493    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          496    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          498    .ARM.Collect$$libinit$$00000006  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          501    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          503    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          505    .ARM.Collect$$libinit$$00000010  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          508    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          510    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          512    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          514    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          516    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          518    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          520    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          522    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          524    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          526    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          528    .ARM.Collect$$libinit$$00000027  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          532    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          534    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          536    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000000   Code   RO          538    .ARM.Collect$$libinit$$00000034  c_w.l(libinit2.o)
+    0x0800027e   0x0800027e   0x00000002   Code   RO          539    .ARM.Collect$$libinit$$00000035  c_w.l(libinit2.o)
+    0x08000280   0x08000280   0x00000002   Code   RO          561    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          576    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          578    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          581    .ARM.Collect$$libshutdown$$00000007  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          584    .ARM.Collect$$libshutdown$$0000000A  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          586    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000000   Code   RO          589    .ARM.Collect$$libshutdown$$0000000F  c_w.l(libshutdown2.o)
+    0x08000282   0x08000282   0x00000002   Code   RO          590    .ARM.Collect$$libshutdown$$00000010  c_w.l(libshutdown2.o)
+    0x08000284   0x08000284   0x00000000   Code   RO          462    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x08000284   0x08000284   0x00000000   Code   RO          464    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x08000284   0x08000284   0x00000006   Code   RO          476    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x0800028a   0x0800028a   0x00000000   Code   RO          466    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x0800028a   0x0800028a   0x00000004   Code   RO          467    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x0800028e   0x0800028e   0x00000000   Code   RO          469    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x0800028e   0x0800028e   0x00000008   Code   RO          470    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x08000296   0x08000296   0x00000002   Code   RO          491    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x08000298   0x08000298   0x00000000   Code   RO          541    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x08000298   0x08000298   0x00000004   Code   RO          542    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x0800029c   0x0800029c   0x00000006   Code   RO          543    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
     0x080002a2   0x080002a2   0x00000002   PAD
     0x080002a4   0x080002a4   0x00000040   Code   RO           18  * .text               startup_stm32g474xx.o
-    0x080002e4   0x080002e4   0x00000006   Code   RO          516    .text               c_w.l(heapauxi.o)
-    0x080002ea   0x080002ea   0x0000004a   Code   RO          536    .text               c_w.l(sys_stackheap_outer.o)
-    0x08000334   0x08000334   0x00000012   Code   RO          538    .text               c_w.l(exit.o)
+    0x080002e4   0x080002e4   0x00000006   Code   RO          458    .text               c_w.l(heapauxi.o)
+    0x080002ea   0x080002ea   0x0000004a   Code   RO          478    .text               c_w.l(sys_stackheap_outer.o)
+    0x08000334   0x08000334   0x00000012   Code   RO          480    .text               c_w.l(exit.o)
     0x08000346   0x08000346   0x00000002   PAD
-    0x08000348   0x08000348   0x00000008   Code   RO          546    .text               c_w.l(libspace.o)
-    0x08000350   0x08000350   0x0000000c   Code   RO          609    .text               c_w.l(sys_exit.o)
-    0x0800035c   0x0800035c   0x00000002   Code   RO          624    .text               c_w.l(use_no_semi.o)
-    0x0800035e   0x0800035e   0x00000000   Code   RO          626    .text               c_w.l(indicate_semi.o)
+    0x08000348   0x08000348   0x00000008   Code   RO          488    .text               c_w.l(libspace.o)
+    0x08000350   0x08000350   0x0000000c   Code   RO          551    .text               c_w.l(sys_exit.o)
+    0x0800035c   0x0800035c   0x00000002   Code   RO          566    .text               c_w.l(use_no_semi.o)
+    0x0800035e   0x0800035e   0x00000000   Code   RO          568    .text               c_w.l(indicate_semi.o)
     0x0800035e   0x0800035e   0x00000002   PAD
     0x08000360   0x08000360   0x00000034   Code   RO          373    .text.Button_PC13_Init  clock_system.o
     0x08000394   0x08000394   0x00000062   Code   RO          361    .text.Clock_system  clock_system.o
@@ -1625,7 +1498,7 @@ Memory Map of the image
     0x080005cc   0x080005cc   0x00000010   Code   RO          312    .text.LL_FLASH_GetLatency  stm32g4xx_ll_utils.o
     0x080005dc   0x080005dc   0x0000001c   Code   RO          310    .text.LL_FLASH_SetLatency  stm32g4xx_ll_utils.o
     0x080005f8   0x080005f8   0x000000dc   Code   RO           75    .text.LL_GPIO_Init  stm32g4xx_ll_gpio.o
-    0x080006d4   0x080006d4   0x0000001a   Code   RO          499    .text.LL_GPIO_IsInputPinSet  main.o
+    0x080006d4   0x080006d4   0x0000001a   Code   RO          441    .text.LL_GPIO_IsInputPinSet  main.o
     0x080006ee   0x080006ee   0x00000002   PAD
     0x080006f0   0x080006f0   0x0000007c   Code   RO           83    .text.LL_GPIO_SetAFPin_0_7  stm32g4xx_ll_gpio.o
     0x0800076c   0x0800076c   0x00000080   Code   RO           85    .text.LL_GPIO_SetAFPin_8_15  stm32g4xx_ll_gpio.o
@@ -1667,7 +1540,7 @@ Memory Map of the image
     0x08000c3c   0x08000c3c   0x000001c0   Code   RO          304    .text.LL_SetFlashLatency  stm32g4xx_ll_utils.o
     0x08000dfc   0x08000dfc   0x00000014   Code   RO          302    .text.LL_SetSystemCoreClock  stm32g4xx_ll_utils.o
     0x08000e10   0x08000e10   0x00000014   Code   RO          402    .text.LL_TIM_CC_EnableChannel  timer.o
-    0x08000e24   0x08000e24   0x00000010   Code   RO          491    .text.LL_TIM_ClearFlag_CC1  main.o
+    0x08000e24   0x08000e24   0x00000010   Code   RO          433    .text.LL_TIM_ClearFlag_CC1  main.o
     0x08000e34   0x08000e34   0x00000012   Code   RO          394    .text.LL_TIM_EnableARRPreload  timer.o
     0x08000e46   0x08000e46   0x00000002   PAD
     0x08000e48   0x08000e48   0x00000012   Code   RO          404    .text.LL_TIM_EnableCounter  timer.o
@@ -1676,22 +1549,22 @@ Memory Map of the image
     0x08000e6e   0x08000e6e   0x00000002   PAD
     0x08000e70   0x08000e70   0x00000012   Code   RO          233    .text.LL_TIM_GenerateEvent_UPDATE  stm32g4xx_ll_tim.o
     0x08000e82   0x08000e82   0x00000002   PAD
-    0x08000e84   0x08000e84   0x0000000c   Code   RO          493    .text.LL_TIM_IC_GetCaptureCH1  main.o
+    0x08000e84   0x08000e84   0x0000000c   Code   RO          435    .text.LL_TIM_IC_GetCaptureCH1  main.o
     0x08000e90   0x08000e90   0x00000078   Code   RO          253    .text.LL_TIM_IC_Init  stm32g4xx_ll_tim.o
     0x08000f08   0x08000f08   0x000001c4   Code   RO          225    .text.LL_TIM_Init   stm32g4xx_ll_tim.o
-    0x080010cc   0x080010cc   0x00000010   Code   RO          489    .text.LL_TIM_IsActiveFlag_CC1  main.o
+    0x080010cc   0x080010cc   0x00000010   Code   RO          431    .text.LL_TIM_IsActiveFlag_CC1  main.o
     0x080010dc   0x080010dc   0x000000f4   Code   RO          400    .text.LL_TIM_OC_DisableFast  timer.o
     0x080011d0   0x080011d0   0x000000f4   Code   RO          398    .text.LL_TIM_OC_EnablePreload  timer.o
     0x080012c4   0x080012c4   0x000000a8   Code   RO          237    .text.LL_TIM_OC_Init  stm32g4xx_ll_tim.o
     0x0800136c   0x0800136c   0x00000010   Code   RO          279    .text.LL_TIM_OC_SetCompareCH1  stm32g4xx_ll_tim.o
-    0x0800137c   0x0800137c   0x00000010   Code   RO          497    .text.LL_TIM_OC_SetCompareCH1  main.o
+    0x0800137c   0x0800137c   0x00000010   Code   RO          439    .text.LL_TIM_OC_SetCompareCH1  main.o
     0x0800138c   0x0800138c   0x00000010   Code   RO          273    .text.LL_TIM_OC_SetCompareCH2  stm32g4xx_ll_tim.o
     0x0800139c   0x0800139c   0x00000010   Code   RO          281    .text.LL_TIM_OC_SetCompareCH3  stm32g4xx_ll_tim.o
     0x080013ac   0x080013ac   0x00000010   Code   RO          283    .text.LL_TIM_OC_SetCompareCH4  stm32g4xx_ll_tim.o
     0x080013bc   0x080013bc   0x00000014   Code   RO          285    .text.LL_TIM_OC_SetCompareCH5  stm32g4xx_ll_tim.o
     0x080013d0   0x080013d0   0x00000010   Code   RO          287    .text.LL_TIM_OC_SetCompareCH6  stm32g4xx_ll_tim.o
     0x080013e0   0x080013e0   0x00000010   Code   RO          227    .text.LL_TIM_SetAutoReload  stm32g4xx_ll_tim.o
-    0x080013f0   0x080013f0   0x00000010   Code   RO          501    .text.LL_TIM_SetAutoReload  main.o
+    0x080013f0   0x080013f0   0x00000010   Code   RO          443    .text.LL_TIM_SetAutoReload  main.o
     0x08001400   0x08001400   0x00000020   Code   RO          396    .text.LL_TIM_SetClockSource  timer.o
     0x08001420   0x08001420   0x00000010   Code   RO          229    .text.LL_TIM_SetPrescaler  stm32g4xx_ll_tim.o
     0x08001430   0x08001430   0x00000010   Code   RO          231    .text.LL_TIM_SetRepetitionCounter  stm32g4xx_ll_tim.o
@@ -1707,7 +1580,7 @@ Memory Map of the image
     0x08001a9e   0x08001a9e   0x00000002   PAD
     0x08001aa0   0x08001aa0   0x00000012   Code   RO            2    .text.SystemInit    system_stm32g4xx.o
     0x08001ab2   0x08001ab2   0x00000002   PAD
-    0x08001ab4   0x08001ab4   0x000000b4   Code   RO          487    .text.TIM3_IRQHandler  main.o
+    0x08001ab4   0x08001ab4   0x000000b4   Code   RO          429    .text.TIM3_IRQHandler  main.o
     0x08001b68   0x08001b68   0x000000ce   Code   RO          406    .text.TIM_InputCapture_Init  timer.o
     0x08001c36   0x08001c36   0x00000002   PAD
     0x08001c38   0x08001c38   0x000000ea   Code   RO          388    .text.TIM_PWM_int   timer.o
@@ -1720,8 +1593,8 @@ Memory Map of the image
     0x08001e50   0x08001e50   0x00000030   Code   RO          412    .text.__NVIC_EnableIRQ  timer.o
     0x08001e80   0x08001e80   0x00000042   Code   RO          410    .text.__NVIC_SetPriority  timer.o
     0x08001ec2   0x08001ec2   0x00000002   PAD
-    0x08001ec4   0x08001ec4   0x0000005a   Code   RO          495    .text.main          main.o
-    0x08001f1e   0x08001f1e   0x0000001a   Code   RO          607    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x08001ec4   0x08001ec4   0x0000005a   Code   RO          437    .text.main          main.o
+    0x08001f1e   0x08001f1e   0x0000001a   Code   RO          549    x$fpl$fpinit        fz_wm.l(fpinit.o)
     0x08001f38   0x08001f38   0x00000018   Data   RO          417    .rodata..L__const.TIM_InputCapture_Init.GPIO_InitStruct  timer.o
     0x08001f50   0x08001f50   0x00000014   Data   RO          418    .rodata..L__const.TIM_InputCapture_Init.TIM_InitStruct  timer.o
     0x08001f64   0x08001f64   0x00000018   Data   RO          414    .rodata..L__const.TIM_PWM_int.GPIO_InitStruct  timer.o
@@ -1730,7 +1603,7 @@ Memory Map of the image
     0x08001fa0   0x08001fa0   0x0000000a   Data   RO          420    .rodata.OFFSET_TAB_CCMRx  timer.o
     0x08001faa   0x08001faa   0x0000000a   Data   RO          421    .rodata.SHIFT_TAB_OCxx  timer.o
     0x08001fb4   0x08001fb4   0x00000020   Data   RO          416    .rodata.cst32       timer.o
-    0x08001fd4   0x08001fd4   0x00000020   Data   RO          682    Region$$Table       anon$$obj.o
+    0x08001fd4   0x08001fd4   0x00000020   Data   RO          624    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Exec base: 0x20000000, Load base: 0x08001ff4, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE)
@@ -1744,11 +1617,11 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000008        -       0x00000060   Zero   RW          547    .bss                c_w.l(libspace.o)
-    0x20000068        -       0x00000004   Zero   RW          505    .bss.current_time   main.o
-    0x2000006c        -       0x00000004   Zero   RW          506    .bss.frequency      main.o
-    0x20000070        -       0x00000004   Zero   RW          504    .bss.last_time      main.o
-    0x20000074        -       0x00000004   Zero   RW          503    .bss.time_diff      main.o
+    0x20000008        -       0x00000060   Zero   RW          489    .bss                c_w.l(libspace.o)
+    0x20000068        -       0x00000004   Zero   RW          447    .bss.current_time   main.o
+    0x2000006c        -       0x00000004   Zero   RW          448    .bss.frequency      main.o
+    0x20000070        -       0x00000004   Zero   RW          446    .bss.last_time      main.o
+    0x20000074        -       0x00000004   Zero   RW          445    .bss.time_diff      main.o
     0x20000078        -       0x00000200   Zero   RW           16    HEAP                startup_stm32g474xx.o
     0x20000278        -       0x00000400   Zero   RW           15    STACK               startup_stm32g474xx.o
 

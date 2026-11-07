@@ -1,4 +1,4 @@
-./objects/usart.o: ..\BPS\Src\USART.c ..\BPS\Inc\USART.h \
+./objects/usart.o: ..\BPS\Src\USART.c ..\BPS\Src\USART.h \
   ..\libraries\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h \
   ..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g4xx.h \
   ..\libraries\CMSIS\Device\ST\STM32G4xx\Include\stm32g474xx.h \

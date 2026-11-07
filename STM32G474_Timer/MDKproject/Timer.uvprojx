@@ -494,16 +494,6 @@
               <FileType>1</FileType>
               <FilePath>..\BPS\Src\Timer.c</FilePath>
             </File>
-            <File>
-              <FileName>DMA.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\BPS\Inc\DMA.h</FilePath>
-            </File>
-            <File>
-              <FileName>DMA.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\BPS\Src\DMA.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
